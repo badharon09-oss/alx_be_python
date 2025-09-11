@@ -7,7 +7,7 @@ monthly_income = float(input("5000 "))
 monthly_expenses = float(input("4000 "))
 
 # Calculate monthly savings
-monthly_savings = monthly_income - monthly_expenses
+monthly_savings = 5000 - 4000
 
 # Annual interest rate
 interest_rate = 0.05
