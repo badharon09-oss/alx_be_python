@@ -1,10 +1,10 @@
 # finance_calculator.py
 
 # Prompt user for monthly income
-monthly_income = float(input("5000 "))
+monthly_income = float(input(" 5000 "))
 
 # Prompt user for monthly expenses
-monthly_expenses = float(input("4000 "))
+monthly_expenses = float(input(" 4000 "))
 
 # Calculate monthly savings
 monthly_savings = monthly_income - monthly_expenses
