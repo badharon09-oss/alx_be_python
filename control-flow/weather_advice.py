@@ -2,7 +2,7 @@
 # Program to give clothing recommendations based on weather
 
 # Prompt user for weather input
-weather = input("What's the weather like today? (sunny/rainy/cold): sunny ")
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
 # Provide recommendations using if/elif/else
 if weather.lower() == "sunny":
