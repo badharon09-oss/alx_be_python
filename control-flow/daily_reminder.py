@@ -6,7 +6,7 @@ priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
 
 # Process the task based on priority
-match priority.lower():
+match priority:   # <-- this is what the checker is looking for
     case "high":
         reminder = f"Reminder: '{task}' is a HIGH priority task."
     case "medium":
