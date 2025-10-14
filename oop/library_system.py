@@ -43,9 +43,5 @@ class Library:
 
     def list_books(self):
         """Print details of all books in the library."""
-        if not self.books:
-            print("No books available in the library.")
-        else:
-            print("Books in the library:")
-            for book in self.books:
-                print(book)
+        for book in self.books:
+            print(book)
